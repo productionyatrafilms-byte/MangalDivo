@@ -184,8 +184,8 @@ function updateText(language) {
   const h1 = document.querySelector("nav h1");
   const fallbacks = {
     English: "Mangal Divo",
-    Hindi: "मम्मी मेरी प्यारी है",
-    Gujrati: "મમ્મી મેરી પ્યારી હૈ",
+    Hindi: "मंगल दिवो",
+    Gujrati: "મંગલ દિવો",
   };
 
   fetch("new1/json/data.json")
